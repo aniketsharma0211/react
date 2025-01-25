@@ -1,10 +1,14 @@
 import { useState } from 'react'
+import Chaitest from './Chai'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <h1>Hello world!!!</h1>
+    <>
+      <Chaitest/>
+      <h1>test</h1>
+    </>
   )
 }
 
